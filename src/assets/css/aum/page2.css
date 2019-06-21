@@ -1,0 +1,110 @@
+.aum-page2 {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  padding: 0 1% 1% 1%;
+  overflow: hidden;
+}
+.aum-page2 .w100 {
+  width: 100%;
+}
+.aum-page2 .h100 {
+  height: 100%;
+}
+.aum-page2 .w55 {
+  width: 45%;
+}
+.aum-page2 .w45 {
+  width: 45%;
+}
+.aum-page2 .w40 {
+  width: 40%;
+}
+.aum-page2 .w15 {
+  width: 15%;
+}
+.aum-page2 .aum_top {
+  height: 58%;
+  display: flex;
+}
+.aum-page2 .aum_top .aum_top_lef {
+  background-color: rgba(37, 57, 68, 0.95);
+  width: 27.5%;
+}
+.aum-page2 .aum_top .aum_top_lef .aum_top_lef_top {
+  height: 25%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+.aum-page2 .aum_top .aum_top_lef .aum_top_lef_top .aum_top_lef_top0 {
+  width: 32%;
+  border: 1px solid #fff;
+  padding: 1%;
+}
+.aum-page2 .aum_top .aum_top_lef .aum_top_lef_top .aum_top_lef_top0 .aumtwodisp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 33%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 1%;
+}
+.aum-page2 .aum_top .aum_top_lef .aum_top_lef_top .aum_top_lef_top0 .aumtwodisp .img_size {
+  width: 1vw;
+}
+.aum-page2 .aum_top .aum_top_lef .aum_top_lef_bot {
+  height: 75%;
+}
+.aum-page2 .aum_top .aum_top_line {
+  width: 0.5%;
+}
+.aum-page2 .aum_top .aum_top_rig {
+  background-color: rgba(49, 69, 86, 0.5);
+  width: 72%;
+  display: flex;
+}
+.aum-page2 .aum_top .aum_top_rig .aum_top_rig0 {
+  width: calc(33.33333333%);
+}
+.aum-page2 .aum_top .aum_top_rig .aum_top_rig0 .aum_top_rig_top {
+  height: 10%;
+  padding: 1% 0 0 0;
+}
+.aum-page2 .aum_top .aum_top_rig .aum_top_rig0 .aum_top_rig_top .aumqySpan {
+  background: url(../../icon_sbuTitle.png) no-repeat;
+  background-size: 20% 100%;
+  width: 70%;
+  border-bottom: 1px solid #fff;
+  padding-left: 15%;
+  font-size: 1vw;
+  height: 70%;
+}
+.aum-page2 .aum_top .aum_top_rig .aum_top_rig0 .aum_top_rig_bot {
+  height: 90%;
+}
+.aum-page2 .aum_line {
+  height: 1%;
+}
+.aum-page2 .aum_bot {
+  height: 39%;
+  background-color: rgba(49, 69, 86, 0.5);
+}
+.aum-page2 .aum_bot .aum_bot_top {
+  height: 15%;
+  padding: 1% 0 0 0;
+}
+.aum-page2 .aum_bot .aum_bot_top .aumqySpan {
+  background: url(../../icon_sbuTitle.png) no-repeat;
+  background-size: 20% 100%;
+  width: 20%;
+  border-bottom: 1px solid #fff;
+  padding-left: 5%;
+  font-size: 1vw;
+  height: 100%;
+}
+.aum-page2 .aum_bot .aum_bot_bot {
+  height: 85%;
+}

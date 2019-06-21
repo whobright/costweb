@@ -1,0 +1,97 @@
+/**
+    *总行的页面
+    **/
+.arrow_down {
+  width: 2.1rem;
+  height: 1.6rem;
+  position: absolute;
+  bottom: 1.2rem;
+  left: 1.2rem;
+}
+.arrow_right {
+  width: 1.4rem;
+  height: 1.4rem;
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+}
+.coner_text {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 3.5rem;
+}
+.left_top {
+  height: 2.3rem;
+}
+.left_top .blue_bulb {
+  width: 2.2rem;
+  height: 2.3rem;
+  float: left;
+}
+.left_top .left_title {
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  margin-left: 0.4rem;
+  word-wrap: nowrap;
+  text-overflow: ellipsis;
+}
+.left_bottom {
+  width: 100%;
+  height: 80%;
+  padding-left: 7%;
+}
+.left_bottom .gauge {
+  width: 100%;
+  height: 100%;
+}
+.right_top .right_title {
+  width: 100%;
+  margin-left: 0.4rem;
+  text-align: right;
+}
+.right_top .right_title > span:nth-child(1) {
+  font-size: 2rem;
+  line-height: 2.3rem;
+  font-weight: 700;
+}
+.right_top .right_title > span:nth-child(2) {
+  font-size: 1.6rem;
+  font-weight: 200;
+  line-height: 2rem;
+}
+.right_bottom {
+  width: 100%;
+  height: 80%;
+  font-size: 1.3rem;
+}
+.right_bottom .price_left {
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: right;
+}
+.right_bottom .price_left > p:nth-child(1) {
+  padding: 25% 0 25% 0;
+}
+.right_bottom .price_right {
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: right;
+}
+.right_bottom .price_right > p:nth-child(1) {
+  padding: 25% 0 25% 0;
+}
+.right_bottom .price_right > p:nth-child(3) {
+  line-height: 2rem;
+}
+.right_bottom .price_right > p:nth-child(3) span {
+  float: right;
+}
+.right_bottom .price_right > p:nth-child(3) img {
+  width: 1.4rem;
+  height: 1.3rem;
+  float: right;
+  margin-top: 0.3rem;
+  margin-right: 0.3rem;
+}

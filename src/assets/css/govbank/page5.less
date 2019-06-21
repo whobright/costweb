@@ -1,0 +1,231 @@
+.govPage5{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: #fff;
+ //顶部日期格式
+ .date_abs {
+  position: absolute;
+  height: 5%;
+  width: 30%;
+  left: 60%;
+  top: 2.8%;
+}
+    *{
+        margin:0;
+        padding:0;
+    }
+    .h100{
+        height: 100%;
+    }
+    .w100{
+        width: 100%;
+    }
+    .wh100{
+        width: 100%;
+        height: 100%;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .unit{
+        color: #fff;
+        position: absolute;
+        top: 3%;
+        right: 2%;
+    }
+    .left{
+        height: 100%;
+        width: 60%;
+        background-color: fade(#253944,95%);
+    }
+    .space{
+        width: 0.6%;
+        height: 100%;
+    }
+    .right{
+        height: 100%;
+        width: 39.4%;
+    }
+    .right1{
+        height: 55%;
+        background-color: fade(#253944,95%);
+        padding: 1%;
+    }
+    .space2{
+        width: 100%;
+        height: 1%;
+    }
+    .right2{
+        height: 44%;
+        background-color: fade(#314355,50%);
+        padding: 1%;
+    }
+    .title_row{
+        height: 6%;
+        display: flex;
+        align-items: center;
+    }
+    .map_row{
+        height: 94%;
+    }
+    .title_img{
+        width: 58px;
+        height: 26px;
+        position: absolute;
+    }
+    .title_img1{
+      width: 58px;
+      height: 26px;
+      position: absolute;
+  }
+    .page_title{
+        height: 46%;
+        width: 38%;
+        border-bottom: 1px solid #fff;
+        padding-left: 7%;
+        color: #fff;
+        font-size: 1vw;
+    }
+    .title_row2{
+        height: 12%;
+        display: flex;
+        align-items: center;
+    }
+    .page_title2{
+        height: 46%;
+        width: 70%;
+        border-bottom: 1px solid #fff;
+        padding-left: 12%;
+        color: #fff;
+        font-size: 1vw;
+    }
+    .page_title3{
+      height: 55%;
+      width: 70%;
+      border-bottom: 1px solid #fff;
+      padding-left: 12%;
+      color: #fff;
+      font-size: 1vw;
+  }
+    .table_row {
+        height: 88%;
+        flex: 1;
+          display: flex;
+    }
+    .bar_row {
+        height: 88%;
+    }
+    .govkh3{
+      height: 6%;
+      padding: 1% 0% 0% 0%;
+    .govkhSpan3{
+        background:url(../../icon_sbuTitle.png) no-repeat;
+        background-size: 15% 100%;
+        width: 60%;
+        border-bottom: 1px solid #fff;
+        padding-left: 12%;
+        font-size: 1.1vw;
+     }
+  }
+  .govkh4{
+    height: 10%;
+    padding: 1% 0% 0% 0%;
+  .govkhSpan4{
+      background:url(../../icon_sbuTitle.png) no-repeat;
+      background-size: 15% 100%;
+      width: 80%;
+      border-bottom: 1px solid #fff;
+      padding-left: 14%;
+      font-size: 1.1vw;
+   }
+}
+    .dialog-table-box{
+        display: flex;
+        /deep/ .el-table--border, .el-table--group{
+          border-color: RGBA(87, 109, 149, 1.00);
+        }
+        /deep/ .el-table--border::after, .el-table--group::after, .el-table::before{
+          background-color: RGBA(87, 109, 149, 1.00);
+        }
+        /deep/ .dialog-table {
+          background: transparent;
+          display: flex;
+          flex-direction: column;
+          white-space: pre-wrap;
+          td,th {
+            padding: 2px;
+            border-color: RGBA(87, 109, 149, 1.00);
+          }
+          .el-table__header{
+            th,tr{
+              background:RGBA(248, 137, 87, 1.00);
+              color: #fff;
+            }
+          }
+          .el-table__row--striped{
+            td,th{
+              background: RGBA(255, 249, 230, 1.00) !important;
+            }
+          }
+          .el-table__row{
+            td,th{
+              background: RGBA(255, 246, 209, 1.00);
+            }
+          }
+          .cell{
+            padding-left: 0;
+            padding-right: 0;
+          }
+          .el-table__header-wrapper{
+            flex: none;
+          }
+          .el-table__body-wrapper{
+            display: flex;
+            .el-table__body{
+              flex: 1;
+            }
+          }
+        }
+      }
+      .quanbuClick{
+        position: absolute;
+        top: -4%;
+        right: 2%;
+        width: 7%;
+        height: 4%;
+        border-radius: 16%;
+        font-size: 1vw;
+        cursor: pointer;
+      }
+      .quanbuClick:hover{
+        background: #f88957;
+      }
+
+}
+@media screen and (max-width: 1370px) {
+  .govPage5{
+    .title_img {
+      height: 18px;
+    }
+    .title_img1 {
+    height: 18px;
+    }
+    .page_title2 {
+      height: 52%;
+    }
+    .page_title2 {
+      height: 50%;
+    }
+    .page_title3 {
+      height: 67%;
+    }
+    .date_abs{
+      left: 60%;
+      top: 2.2%;
+     }
+  }
+ }

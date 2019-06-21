@@ -1,0 +1,177 @@
+.govpage3 {
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  // border: 1px solid red;
+  //顶部日期格式
+   .date_abs {
+    position: absolute;
+    height: 5%;
+    width: 30%;
+    left: 60%;
+    top: 2.8%;
+  }
+  .w100{
+    width: 100%;
+  }
+  .h100{
+    height: 100%;
+  }
+  .govTop{
+    height: 55%;
+    display: flex;
+    background-color: fade(#253944,95%);
+    
+    .govTop1{
+      width: calc( 100% / 3 );
+      position: relative;
+      .govkh1{
+        display: flex;
+        height: 15%;
+        padding: 4% 4% 1% 4%;
+        font-size: 1.1vw;
+        font-weight: bold;
+        .govkhSpan1{
+          display: inline-block;
+          width: 30%;
+          height: 100%;
+          margin-left: 10%;
+          border: 1px solid #fff;
+          text-align: center;
+          line-height: 34px;
+        }
+        .govkhSpan2{
+          width: 25%;
+          height: 100%;
+          border-bottom: 1px solid #fff;
+          padding-left: 5%;
+          line-height: 34px;
+        }
+      }
+      .govkh2{
+        height: 85%;
+      }
+      .govkh3{
+        height: 15%;
+        padding: 4% 4% 1% 4%;
+        .govkhSpan3{
+          background:url(../../icon_sbuTitle.png) no-repeat;
+          background-size: 20% 100%;
+          width: 80%;
+          border-bottom: 1px solid #fff;
+          padding-left: 18%;
+          font-size: 1.1vw;
+        }
+      }
+      .govkh4{
+       height: 85%;
+      //  border: 1px solid #000;
+      }
+      .govkh_rig_xz{
+        position: absolute;
+        left: -12%;
+        top: 45%;
+        width: 30%;
+        transform: rotate(-90deg);
+        font-size: 0.9vw;
+      }
+      .govkh_rig_bot{
+        position: absolute;
+        left: 45%;
+        bottom: 2%;
+        font-size: 0.9vw;
+      }
+      .govkh_rig_bot1{
+        position: absolute;
+        right: 2%;
+        top: 12%;
+        font-size: 0.8vw;
+        width: 16%;
+        word-break: break-word;
+        text-align: center;
+      }
+    }
+  }
+  .govBot{
+    height: 44.5%;
+    display: flex;
+    background-color: fade(#253944,80%);
+  }
+  .govBotLef{
+    width: 33%;
+    // border: 1px solid blue;
+    position: relative;
+    .govkh3{
+      height: 15%;
+      padding: 4% 4% 1% 4%;
+      .govkhSpan3{
+        background:url(../../icon_sbuTitle.png) no-repeat;
+        background-size: 20% 100%;
+        width: 80%;
+        border-bottom: 1px solid #fff;
+        padding-left: 18%;
+        font-size: 1.1vw;
+      }
+    }
+    .govkh4{
+      height: 85%;
+    }
+    .gov_btn{
+      background: -webkit-gradient(linear, left top, left bottom, from(#EBEBEB), to(#304564));
+      background: linear-gradient(#EBEBEB, #304564);
+      background: -o-linear-gradient(#EBEBEB, #304564);
+      color: #fff;
+      position: absolute;
+      border: 1px solid #EBEBEB;
+      width: 100px;
+      height: 9%;
+      background-color: #EBEBEB;
+      border-radius: 5px 5px 0px 0px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-left: 1px;
+      top: 1.5%;
+      right: 2%;
+    }
+    .gov_bot_zq{
+      position: absolute;
+      top: 1.5%;
+      right: -20%;
+      width: 17%;
+      height: 9%;
+      padding: 0.8% 0;
+      border: 1px solid #fff;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+  .govBotRig{
+    width: 67%;
+    // border: 1px solid blue;
+  }
+
+}
+@media screen and (max-width: 1370px) {
+ .govpage3{
+   .date_abs{
+    left: 60%;
+    top: 2.2%;
+   }
+ .govBotLef .gov_btn{
+   width: 80px;
+ }
+ .govTop .govTop1 .govkh1 .govkhSpan1{
+  line-height: 22px;
+ }
+ .govTop .govTop1 .govkh1 .govkhSpan2{
+  line-height: 22px;
+ }
+ }
+}

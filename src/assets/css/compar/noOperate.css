@@ -1,0 +1,463 @@
+.contrast {
+  background: url("../../compar/home_bg.jpg") no-repeat center center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  /* 下拉框右边选择按钮背景色样式 */
+  /* 下拉框右边选择框小图标替换 */
+  /* 头部样式 */
+  /* 主体样式 */
+  /* 底部样式 */
+}
+.contrast /deep/ .el-table--enable-row-hover .el-table__body tr:hover > td {
+  background-color: transparent;
+}
+.contrast /deep/ .el-table--enable-row-hover .el-table__body tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.2) !important;
+  border: none;
+}
+.contrast /deep/ .el-table th.is-leaf {
+  border-bottom: none;
+  margin: 0;
+  padding: 0;
+}
+.contrast /deep/ .el-input__inner {
+  background-color: #24353F;
+  border: 0.1rem solid #979797;
+  font-size: 1.4rem;
+  font-family: MicrosoftYaHei;
+  color: #ffffff;
+  border-radius: 0;
+  padding: 0;
+}
+.contrast /deep/ .el-input__suffix {
+  right: 0;
+}
+.contrast /deep/ .el-input--mini .el-input__icon {
+  line-height: 2rem;
+}
+.contrast /deep/ .el-input--mini .el-input__inner {
+  height: 2rem;
+  line-height: 2rem;
+}
+.contrast .top {
+  height: 9.63vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.contrast .top .center {
+  font-size: 2.8rem;
+  font-family: MicrosoftYaHei-Bold;
+  font-weight: bold;
+  color: #ffffff;
+}
+.contrast .top .top-right {
+  height: 5rem;
+  width: 30rem;
+  right: 2rem;
+  bottom: .6rem;
+  position: absolute;
+  display: flex;
+}
+.contrast .top .top-right .dateinput {
+  position: absolute;
+  bottom: 0.2rem;
+  left: 3.6rem;
+  width: auto;
+  height: 1rem;
+  font-size: 1.4rem;
+  font-family: MicrosoftYaHei;
+  color: #ffffff;
+  line-height: 1.9rem;
+  padding-right: 1.2rem;
+  box-sizing: border-box;
+}
+.contrast .top .top-right .dateinput /deep/ .el-input__inner {
+  width: 8rem;
+  padding-left: 1.8rem;
+  color: #fff;
+}
+.contrast .top .top-right .dateinput /deep/ .el-icon-date:before {
+  color: #fff;
+}
+.contrast .top .top-right .dateinput /deep/ .el-input__icon {
+  width: 0;
+}
+.contrast .top .top-right .icon {
+  display: inline-block;
+}
+.contrast .top .top-right .icon img {
+  width: 2.2rem;
+  vertical-align: middle;
+  position: absolute;
+  bottom: -0.3rem;
+  left: 16rem;
+}
+.contrast .top .top-right .icon span {
+  position: absolute;
+  bottom: 0;
+  left: 18.6rem;
+  font-size: 1.4rem;
+  font-family: MicrosoftYaHei;
+  color: #ff8e44;
+}
+.contrast .main {
+  height: 65%;
+  width: 100%;
+  padding: 0 1rem 1rem;
+  box-sizing: border-box;
+  display: flex;
+}
+.contrast .main .main-left {
+  flex: 1;
+  height: 100%;
+  margin-right: 1rem;
+  background: rgba(37, 54, 63, 0.8);
+  /* 饼图样式 */
+}
+.contrast .main .main-left .main-left-tit {
+  margin-top: 1.6rem;
+  margin-left: 1.6rem;
+}
+.contrast .main .main-left .main-left-tit img {
+  width: 3rem;
+  height: 1.8rem;
+  color: #FFFFFF;
+}
+.contrast .main .main-left .main-left-tit span {
+  font-size: 2rem;
+  font-family: MicrosoftYaHei-Bold;
+  font-weight: bold;
+  color: #ffffff;
+}
+.contrast .main .main-left .piechart {
+  width: 100%;
+  height: 55%;
+  position: relative;
+}
+.contrast .main .main-left .piechart img {
+  width: 2rem;
+  height: 1.4rem;
+  position: absolute;
+  right: 1.8rem;
+  top: .6rem;
+  z-index: 88;
+}
+.contrast .main .main-left .piechart .pie {
+  width: 100%;
+  height: 100%;
+}
+.contrast .main .main-left .pietable {
+  width: 100%;
+  height: 45%;
+  padding: 0 1.2rem 1.7rem;
+  box-sizing: border-box;
+}
+.contrast .main .main-left .pietable .el-row {
+  background: rgba(58, 83, 98, 0.6);
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+.contrast .main .main-left .pietable .el-row:nth-child(2n) {
+  background: rgba(37, 54, 63, 0.8);
+}
+.contrast .main .main-left .pietable .grid-content {
+  min-height: 2.6rem;
+  text-align: center;
+  line-height: 2.6rem;
+}
+.contrast .main .main-right {
+  flex: 3;
+  height: 100%;
+  background: rgba(37, 54, 63, 0.8);
+  display: flex;
+  flex-direction: column;
+}
+.contrast .main .main-right .title {
+  margin-top: 1.6rem;
+  margin-left: 1.6rem;
+  height: 8%;
+}
+.contrast .main .main-right .title img {
+  width: 3rem;
+}
+.contrast .main .main-right .title .tit {
+  font-size: 2rem;
+  font-family: MicrosoftYaHei-Bold;
+  font-weight: bold;
+  color: #ffffff;
+}
+.contrast .main .main-right .title .smalltit {
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: bold;
+}
+.contrast .main .main-right .title .xiala {
+  margin-left: 1.6rem;
+  width: 6.58vw;
+  height: 2.6vh;
+  display: inline-block;
+}
+.contrast .main .main-right .title .xiala .xiala_select {
+  width: 6.58vw;
+  height: 2.08vh;
+  display: inline-block;
+}
+.contrast .main .main-right .content {
+  flex: 1;
+  width: 100%;
+  display: flex;
+}
+.contrast .main .main-right .content .content-left {
+  flex: 2;
+  height: 100%;
+}
+.contrast .main .main-right .content .content-left .scatter {
+  width: 100%;
+  height: 100%;
+}
+.contrast .main .main-right .content .content-table {
+  flex: 1;
+  position: relative;
+  top: -2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.contrast .main .main-right .content .content-table .content-table-tit {
+  height: 8%;
+  font-size: 1.6rem;
+  font-family: MicrosoftYaHei-Bold;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 0.6rem;
+}
+.contrast .main .main-right .content .content-table .content-table-right {
+  width: 100%;
+  height: 92%;
+  /* 自己写的table */
+  /*饿了么ui表格样式调整  */
+}
+.contrast .main .main-right .content .content-table .content-table-right table {
+  width: 27rem;
+  height: 34.4rem;
+  font-size: 1.2rem;
+  font-weight: normal;
+  table-layout: fixed;
+  text-align: center;
+  vertical-align: middle;
+  border: 0;
+  border-collapse: 0;
+  border-spacing: 0;
+}
+.contrast .main .main-right .content .content-table .content-table-right table thead {
+  background: rgba(255, 102, 0, 0.9);
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  font-size: 1.4rem;
+  color: #fff;
+}
+.contrast .main .main-right .content .content-table .content-table-right table thead tr.text {
+  display: block;
+  padding-right: .5rem;
+  box-sizing: border-box;
+}
+.contrast .main .main-right .content .content-table .content-table-right table thead tr.text th {
+  width: 16.66%;
+  height: 3.65rem;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+.contrast .main .main-right .content .content-table .content-table-right table thead tr.text th:nth-child(n + 1) {
+  /* width: 20%; */
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.contrast .main .main-right .content .content-table .content-table-right table thead tr.text th:nth-child(2) {
+  padding: 0 .4rem;
+  box-sizing: border-box;
+}
+.contrast .main .main-right .content .content-table .content-table-right table tbody {
+  font-size: 1.4rem;
+  color: #fff;
+  display: block;
+  overflow-y: scroll;
+  max-height: 20rem;
+  background: rgba(37, 54, 63, 0.8);
+}
+.contrast .main .main-right .content .content-table .content-table-right table tbody tr {
+  border: 0;
+  height: 2.5rem;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+.contrast .main .main-right .content .content-table .content-table-right table tbody tr td {
+  border: 0;
+  width: 16.66%;
+  padding: 0;
+  margin: 0;
+}
+.contrast .main .main-right .content .content-table .content-table-right table tbody tr td:nth-child(1) {
+  width: 22%;
+  padding-left: .4rem;
+  box-sizing: border-box;
+}
+.contrast .main .main-right .content .content-table .content-table-right table tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.2);
+}
+.contrast .main .main-right .content .content-table .content-table-right table tbody tr:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.1);
+}
+.contrast .foot {
+  height: 35%;
+  width: 100vw;
+  box-sizing: border-box;
+}
+.contrast .foot .foot-box {
+  width: 98.535vw;
+  height: 33.593vh;
+  position: relative;
+  margin: 0 1rem 1rem;
+  background: rgba(37, 54, 63, 0.8);
+  /* 底部头部样式 */
+}
+.contrast .foot .foot-box .foot-tit {
+  display: flex;
+  margin: 0rem 0 0 1.8rem;
+  position: relative;
+}
+.contrast .foot .foot-box .foot-tit img {
+  width: 3rem;
+  height: 1.8rem;
+  margin-top: 1.1rem;
+  margin-right: .4rem;
+}
+.contrast .foot .foot-box .foot-tit .tit {
+  font-size: 2rem;
+  font-family: MicrosoftYaHei-Bold;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 1.1rem;
+}
+.contrast .foot .foot-box .foot-tit .smalltit {
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: bold;
+  margin: 1.5rem 0 0 1rem;
+}
+.contrast .foot .foot-box .foot-tit .subject {
+  display: flex;
+  margin: 1rem 0 0 4rem;
+}
+.contrast .foot .foot-box .foot-tit .subject .box-tit-des-total {
+  margin-right: 3rem;
+}
+.contrast .foot .foot-box .foot-tit .subject .box-tit-des-total span {
+  font-size: 1.4rem;
+  font-family: MicrosoftYaHei;
+  color: #ffffff;
+}
+.contrast .foot .foot-box .foot-tit .subject .box-tit-des-total .xiala {
+  width: 5.58vw;
+  height: 2.6vh;
+  display: inline-block;
+  /* 样式覆盖 */
+}
+.contrast .foot .foot-box .foot-tit .subject .box-tit-des-total .xiala .xiala_select {
+  width: 6.58vw;
+  height: 2.08vh;
+  display: inline-block;
+}
+.contrast .foot .foot-box .foot-tit .btn {
+  position: absolute;
+  top: 1.4rem;
+  right: 4.5rem;
+  width: 5rem;
+  height: 2rem;
+  line-height: 2rem;
+  background: #ff8737;
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+.contrast .foot .foot-box .foot-cont {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.contrast .foot .foot-box .foot-cont .left {
+  width: 30%;
+  height: 100%;
+  position: relative;
+}
+.contrast .foot .foot-box .foot-cont .left .leftbar {
+  width: 100%;
+  height: 100%;
+}
+.contrast .foot .foot-box .foot-cont .left span {
+  font-size: 2.4rem;
+  color: #ff9d19;
+  position: absolute;
+  top: .8rem;
+  right: 22.3rem;
+}
+.contrast .foot .foot-box .foot-cont img {
+  height: 3.1rem;
+  position: absolute;
+  left: 24%;
+  top: 35%;
+}
+.contrast .foot .foot-box .foot-cont .right {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.contrast .foot .foot-box .foot-cont .right .rightbar {
+  width: 100%;
+  height: 90%;
+}
+@media screen and (min-width: 1368px) and (max-width: 1920px) {
+  .contrast .main .main-right .content .content-table .content-table-right table thead tr.text th[data-v-5a10fa64]:nth-child(n + 1) {
+    padding: 0 1.18rem;
+  }
+  .contrast .main .main-right .content .content-table .content-table-right table thead tr.text th[data-v-5a10fa64]:nth-child(2) {
+    padding: 0 .6rem;
+  }
+  .contrast .main .main-right .content .content-table .content-table-right table tbody[data-v-5a10fa64] {
+    overflow-y: auto;
+    max-height: 28rem;
+  }
+  .contrast .main .main-right .content .content-table[data-v-5a10fa64] {
+    top: 0;
+    right: .1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .contrast .main .main-right .content .content-table .content-table-right table tbody tr td[data-v-5a10fa64]:nth-child(1) {
+    width: 28%;
+  }
+  .contrast .main .main-right .content .content-table .content-table-right[data-v-5a10fa64] {
+    flex: 1;
+    width: 100%;
+  }
+  .contrast .main .main-right .content .content-table .content-table-right table[data-v-5a10fa64] {
+    height: 100%;
+    width: 100%;
+  }
+  .contrast .main .main-right .content .content-table .content-table-right table tbody tr[data-v-5a10fa64] {
+    height: 3.5rem;
+  }
+  .contrast .main .main-right .content .content-table .content-table-right table thead tr.text th[data-v-5a10fa64] {
+    height: 5.65rem;
+  }
+}

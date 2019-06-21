@@ -1,0 +1,518 @@
+ /deep/ .el-table td,
+ /deep/ .el-table th {
+  border: none;
+  text-align: center;
+}
+/*/deep/.el-table th:nth-of-type(1) .cell{
+    	padding-left: 22px;
+    	text-align: left;
+    }
+   /deep/.el-table tr td:nth-of-type(1) .cell span{
+	   	display: block;
+	    width: 94px;
+	    text-align: left;
+	    margin-left: 10px;
+   }*/
+ /deep/ .el-table th,
+ /deep/ .el-table tr {
+  background: #303e49;
+}
+ /deep/ .el-table--border,
+ /deep/ .el-table--group {
+  border: none;
+}
+ /deep/ .el-table--border td,
+ /deep/ .el-table--border th,
+ /deep/ .el-table__body-wrapper /deep/ .el-table--border.is-scrolling-left ~ .el-table__fixed {
+  border-right: none;
+}
+ /deep/ .el-table--border::after,
+ /deep/ .el-table--group::after,
+ /deep/ .el-table::before {
+  background: none;
+}
+ /deep/ .el-table thead {
+  color: #fff;
+}
+ /deep/ .el-table {
+  color: #fff;
+  background: #303e49;
+}
+ /deep/ .el-table__expand-icon {
+  color: #fff;
+}
+ /deep/ .el-table tbody tr:hover > td {
+  background: none;
+}
+ /deep/ .el-table th.is-leaf {
+  border-bottom: 1px solid #fff;
+}
+ /deep/ .el-table tr td:nth-of-type(1) {
+  border-right: 1px solid #fff;
+}
+ /deep/ .my-select-box label {
+  color: #fff;
+}
+ /deep/ .el-table__body-wrapper {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+/*/deep/.el-table [class*=el-table__row--level] .el-table__expand-icon{
+		float: right;
+	}*/
+ /deep/ .el-button {
+  padding: 7px 20px;
+  margin-left: 40px;
+  background-color: #ff8737;
+  border: 1px solid #ff8737;
+}
+.bg {
+  width: 100%;
+  height: 100%;
+  background: url('../../analyse/home_bg.jpg') no-repeat center center;
+  overflow: hidden;
+  /* 日期控件是否显示 */
+  /* 头部右侧导航是否显示 */
+  /**弹出层**/
+}
+.bg /deep/ .el-select {
+  width: 123px;
+}
+.bg .spe2 {
+  bottom: 50% !important;
+  right: 9% !important;
+}
+.bg .spe1 {
+  bottom: 51% !important;
+}
+.bg .header {
+  position: relative;
+  height: 9.63vh;
+  width: 100vw;
+  font-weight: normal;
+  color: #fff;
+  /* 标题 */
+  /* 日期控件 */
+  /* 头部右侧导航 */
+  /* 头部菜单导航 */
+}
+.bg .header .select-area {
+  display: flex;
+  position: absolute;
+  right: 1%;
+  bottom: 10px;
+  z-index: 999;
+}
+.bg .header .select-area .my-select-box {
+  width: 180px;
+}
+.bg .header .header-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2.8rem;
+  line-height: 9.63vh;
+}
+.bg .header .header-time {
+  position: absolute;
+  float: right;
+  bottom: 10%;
+  right: 6%;
+  width: auto;
+  z-index: 999;
+}
+.bg .header .home {
+  position: absolute;
+  right: 1%;
+  bottom: 10%;
+  z-index: 999;
+  cursor: pointer;
+  color: #ff8e44;
+  font-size: 1.4rem;
+}
+.bg .header .home .icon {
+  display: inline-block;
+  width: 2.2rem;
+  height: 2.2rem;
+  background: url(../../analyse/CombinedShape.png) no-repeat;
+  background-size: 100% 100%;
+  vertical-align: -0.7vh;
+}
+.bg .header .menuBar {
+  position: relative;
+  top: 59%;
+  left: 0.73%;
+  height: 39.5%;
+}
+.bg .header .menuBar .header-radio {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 22.5%;
+}
+.bg .header .menuBar .header-radio li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #999999;
+  height: 100%;
+  width: 33%;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  font-size: 1.4rem;
+}
+.bg .header .menuBar .header-radio .checked {
+  background-color: #e16600 !important;
+}
+.bg .header .menuBar .second-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 19.8%;
+  width: 22%;
+}
+.bg .header .menuBar .second-title span {
+  display: block;
+  width: 17%;
+  height: 28%;
+  background: linear-gradient(360deg, rgba(204, 204, 204, 0.6) 0%, rgba(0, 39, 79, 0.6) 52%, rgba(204, 204, 204, 0.6) 100%);
+  text-align: center;
+  cursor: pointer;
+  margin-right: 1%;
+}
+.bg .header .menuBar .second-title .actived {
+  background: #ff6600;
+}
+.bg .content {
+  height: calc(89%);
+  margin: 0 0.73vw 1.3vh;
+  display: flex;
+}
+.bg .content .leftCon {
+  width: 24%;
+  height: 100%;
+  margin-right: 0.5vw;
+  background: rgba(37, 54, 63, 0.8);
+  /**左下部分**/
+}
+.bg .content .leftCon .detailBox {
+  margin: 3.5vh 2vw 5vh;
+}
+.bg .content .leftCon .detailBox .detail-tit {
+  font-size: 1.6rem;
+}
+.bg .content .leftCon .detailBox .detail-tit .tit-score .el-col-24 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg .content .leftCon .detailBox .detail-tit .num {
+  font-size: 2rem;
+  color: #ff6600;
+  margin-left: .4rem;
+}
+.bg .content .leftCon .detailBox p {
+  font-size: 1.4rem;
+  color: #fff;
+  margin-bottom: 1vh;
+}
+.bg .content .leftCon .detailBox p em {
+  display: inline-block;
+  width: 108px;
+  font-style: normal;
+}
+.bg .content .leftCon .detailBox p span {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.bg .content .leftCon .detailBox p span .branchPop {
+  width: 142px;
+  background: #000000;
+  border-radius: 5px;
+  padding: 5px 5px;
+  position: absolute;
+  top: 0;
+  left: 62px;
+  max-height: 285px;
+  overflow: auto;
+}
+.bg .content .leftCon .detailBox p span .branchPop li {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+.bg .content .leftCon .detailBox p span .branchPop::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 5px;
+  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 18px;
+}
+.bg .content .leftCon .detailBox p span .branchPop::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  -webkit-box-shadow: inset 0 0 0px #4f6675;
+  background: #4f6675;
+}
+.bg .content .leftCon .detailBox p span .branchPop::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  -webkit-box-shadow: inset 0 0 0px #3b4c58;
+  border-radius: 0;
+  background: #3b4c58;
+}
+.bg .content .leftCon .detailBox p:nth-child(1) {
+  margin-bottom: 3vh !important;
+}
+.bg .content .leftCon .detailBox p:nth-child(n+1) {
+  margin-bottom: .2vh;
+}
+.bg .content .leftCon .table-contract table {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: center;
+}
+.bg .content .leftCon .table-contract table th {
+  border-bottom: 1px solid #fff;
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+.bg .content .leftCon .table-contract table tr td {
+  font-size: 1.4rem;
+}
+.bg .content .leftCon .table-contract table tr td:nth-of-type(1) {
+  border-right: 1px solid #fff;
+}
+.bg .content .leftCon .table-contract .bodyTable {
+  height: 9vh;
+  overflow: auto;
+}
+.bg .content .leftCon .linebg {
+  width: 260px;
+  height: 1px;
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #ff6600 51%, rgba(255, 255, 255, 0) 100%);
+  margin: 7vh auto 0;
+}
+.bg .content .leftCon .bottom-item-box {
+  width: 100%;
+  height: 30%;
+}
+.bg .content .leftCon .bottom-item-box .pieEchartBox {
+  width: 100%;
+  height: 100%;
+}
+.bg .content .leftCon .bottom-item-box .pieEchartBox h3 {
+  color: #fff;
+  margin: 3vh 1vw 0;
+}
+.bg .content .leftCon .bottom-item-box .pieEchartBox .echartDom {
+  width: 100%;
+  height: 85%;
+  position: relative;
+}
+.bg .content .leftCon .bottom-item-box .pieEchartBox .echartDom .center-txt {
+  color: #fff;
+  position: absolute;
+  font-size: 1.2rem;
+  display: inline;
+  text-align: center;
+  width: 100px;
+  top: 38%;
+  left: 29%;
+  z-index: 100;
+}
+.bg .content .leftCon .bottom-item-box .pieEchartBox .echartDom .center-txt span {
+  display: block;
+}
+.bg .content .leftCon .bottom-item-box .pie-detail-table {
+  margin: 0 1vw;
+}
+.bg .content .leftCon .bottom-item-box .pie-detail-table table {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.bg .content .leftCon .bottom-item-box .pie-detail-table table thead {
+  height: 26px;
+  line-height: 26px;
+  background: rgba(58, 83, 98, 0.6);
+}
+.bg .content .leftCon .bottom-item-box .pie-detail-table table tbody tr td {
+  text-align: center;
+  height: 26px;
+  line-height: 26px;
+}
+.bg .content .leftCon .bottom-item-box .pie-detail-table table tbody tr td:nth-of-type(1) {
+  padding: 0 0.5vw;
+}
+.bg .content .leftCon .bottom-item-box .pie-detail-table table tbody tr td:nth-of-type(2) {
+  text-align: right;
+  padding: 0 5vw;
+}
+.bg .content .leftCon .bottom-item-box .pie-detail-table table tbody tr td:nth-of-type(3) {
+  padding: 0 0.5vw;
+}
+.bg .content .leftCon .bottom-item-box .pie-detail-table table tbody tr:nth-of-type(2) {
+  background: rgba(58, 83, 98, 0.6);
+}
+.bg .content .rightCon {
+  position: relative;
+  width: 76%;
+  height: 100%;
+  background: rgba(37, 54, 63, 0.8);
+}
+.bg .content .rightCon .radio-item {
+  position: absolute;
+  right: 2vw;
+  top: 3vh;
+}
+.bg .content .rightCon .describ-box {
+  display: flex;
+  margin: 2.8vh 0 0 2vw;
+}
+.bg .content .rightCon .describ-box span {
+  color: #fff;
+  font-size: 1.6rem;
+  margin-right: 40px;
+}
+.bg .content .rightCon .describ-box span em {
+  font-style: normal;
+  font-size: 3.6rem;
+  color: #ff6600;
+}
+.bg .content .rightCon .describ-box span em i {
+  font-style: normal;
+  font-size: 1.6rem;
+}
+.bg .content .rightCon .top-item-box {
+  width: 100%;
+  height: 60%;
+}
+.bg .content .rightCon .top-item-box .tree-dom {
+  width: 100%;
+  height: 72%;
+}
+.bg .content .rightCon .top-item-box .tree-dom .tree {
+  width: 100%;
+  height: 100%;
+}
+.bg .content .rightCon .bottom-item-box {
+  width: 100%;
+  height: 38%;
+}
+.bg .content .rightCon .bottom-item-box .title {
+  position: absolute;
+  width: auto;
+  left: 3%;
+  font-size: 1.6rem;
+  color: #fff;
+  z-index: 999;
+}
+.bg .content .rightCon .bottom-item-box .echartDom {
+  width: 100%;
+  height: 100%;
+}
+.bg .content .rightCon .bottom-item-box .echartDom .lineBar {
+  width: 100%;
+  height: 100%;
+}
+.bg .content .box-title {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 2.6rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  color: #fff;
+}
+.bg .content .box-title .title-img {
+  width: 3rem;
+  height: 1.8rem;
+}
+.bg .content .box-title span {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.bg .subTitle {
+  height: 2.8rem;
+  line-height: 1.8rem;
+  padding-top: 10px;
+}
+.bg .subTitle img {
+  width: 3.2rem;
+  height: 1.8rem;
+}
+.bg .subTitle span {
+  float: left;
+  display: inline-block;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+.bg /deep/ .el-dialog {
+  background: #303e49;
+  width: 55%;
+}
+.bg /deep/ .el-dialog__body {
+  padding: 0 20px 30px;
+}
+.bg /deep/ my-select-box label {
+  color: #fff;
+}
+.bg .my-select-box {
+  float: left;
+  margin-left: 15px;
+}
+.bg .reback {
+  position: absolute;
+  right: 15%;
+  top: 5%;
+  cursor: pointer;
+}
+@media screen and (min-width: 1366px) and (max-width: 1440px) {
+  .bg .content .leftCon[data-v-2921202d] {
+    height: 90.37vh;
+  }
+  .bg .content .leftCon .top-item-box {
+    height: 45.185vh;
+  }
+  .bg .content .leftCon .bottom-item-box[data-v-2921202d] {
+    height: 45.185vh;
+  }
+  .bg .content .leftCon .bottom-item-box .pieEchartBox[data-v-2921202d] {
+    height: 60%;
+  }
+  .bg .content .leftCon .bottom-item-box .pie-detail-table[data-v-2921202d] {
+    height: 40%;
+  }
+  .bg .content .leftCon .bottom-item-box .pie-detail-table .el-row {
+    background: rgba(58, 83, 98, 0.6);
+    font-size: 1.4rem;
+    color: #ffffff;
+  }
+  .bg .content .leftCon .bottom-item-box .pie-detail-table .el-row:nth-child(2n) {
+    background: rgba(37, 54, 63, 0.8);
+  }
+  .bg .content .leftCon .bottom-item-box .pie-detail-table .grid-content {
+    min-height: 2.17rem;
+    text-align: center;
+    line-height: 2.17rem;
+  }
+  .bg .content .leftCon .bottom-item-box .pie-detail-table table thead[data-v-2921202d] {
+    height: 24px;
+    line-height: 24px;
+  }
+  .bg .content .leftCon .bottom-item-box .pie-detail-table table tbody tr td[data-v-2921202d] {
+    height: 18px;
+    line-height: 18px;
+  }
+  .bg .content .leftCon .bottom-item-box .pie-detail-table table tbody tr td[data-v-2921202d]:nth-of-type(1) {
+    padding: 0;
+  }
+}

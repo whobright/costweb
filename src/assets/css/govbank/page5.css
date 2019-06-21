@@ -1,0 +1,227 @@
+.govPage5 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  color: #fff;
+}
+.govPage5 .date_abs {
+  position: absolute;
+  height: 5%;
+  width: 30%;
+  left: 60%;
+  top: 2.8%;
+}
+.govPage5 * {
+  margin: 0;
+  padding: 0;
+}
+.govPage5 .h100 {
+  height: 100%;
+}
+.govPage5 .w100 {
+  width: 100%;
+}
+.govPage5 .wh100 {
+  width: 100%;
+  height: 100%;
+}
+.govPage5 .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.govPage5 .unit {
+  color: #fff;
+  position: absolute;
+  top: 3%;
+  right: 2%;
+}
+.govPage5 .left {
+  height: 100%;
+  width: 60%;
+  background-color: rgba(37, 57, 68, 0.95);
+}
+.govPage5 .space {
+  width: 0.6%;
+  height: 100%;
+}
+.govPage5 .right {
+  height: 100%;
+  width: 39.4%;
+}
+.govPage5 .right1 {
+  height: 55%;
+  background-color: rgba(37, 57, 68, 0.95);
+  padding: 1%;
+}
+.govPage5 .space2 {
+  width: 100%;
+  height: 1%;
+}
+.govPage5 .right2 {
+  height: 44%;
+  background-color: rgba(49, 67, 85, 0.5);
+  padding: 1%;
+}
+.govPage5 .title_row {
+  height: 6%;
+  display: flex;
+  align-items: center;
+}
+.govPage5 .map_row {
+  height: 94%;
+}
+.govPage5 .title_img {
+  width: 58px;
+  height: 26px;
+  position: absolute;
+}
+.govPage5 .title_img1 {
+  width: 58px;
+  height: 26px;
+  position: absolute;
+}
+.govPage5 .page_title {
+  height: 46%;
+  width: 38%;
+  border-bottom: 1px solid #fff;
+  padding-left: 7%;
+  color: #fff;
+  font-size: 1vw;
+}
+.govPage5 .title_row2 {
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+.govPage5 .page_title2 {
+  height: 46%;
+  width: 70%;
+  border-bottom: 1px solid #fff;
+  padding-left: 12%;
+  color: #fff;
+  font-size: 1vw;
+}
+.govPage5 .page_title3 {
+  height: 55%;
+  width: 70%;
+  border-bottom: 1px solid #fff;
+  padding-left: 12%;
+  color: #fff;
+  font-size: 1vw;
+}
+.govPage5 .table_row {
+  height: 88%;
+  flex: 1;
+  display: flex;
+}
+.govPage5 .bar_row {
+  height: 88%;
+}
+.govPage5 .govkh3 {
+  height: 6%;
+  padding: 1% 0% 0% 0%;
+}
+.govPage5 .govkh3 .govkhSpan3 {
+  background: url(../../icon_sbuTitle.png) no-repeat;
+  background-size: 15% 100%;
+  width: 60%;
+  border-bottom: 1px solid #fff;
+  padding-left: 12%;
+  font-size: 1.1vw;
+}
+.govPage5 .govkh4 {
+  height: 10%;
+  padding: 1% 0% 0% 0%;
+}
+.govPage5 .govkh4 .govkhSpan4 {
+  background: url(../../icon_sbuTitle.png) no-repeat;
+  background-size: 15% 100%;
+  width: 80%;
+  border-bottom: 1px solid #fff;
+  padding-left: 14%;
+  font-size: 1.1vw;
+}
+.govPage5 .dialog-table-box {
+  display: flex;
+}
+.govPage5 .dialog-table-box /deep/ .el-table--border,
+.govPage5 .dialog-table-box .el-table--group {
+  border-color: #576d95;
+}
+.govPage5 .dialog-table-box /deep/ .el-table--border::after,
+.govPage5 .dialog-table-box .el-table--group::after,
+.govPage5 .dialog-table-box .el-table::before {
+  background-color: #576d95;
+}
+.govPage5 .dialog-table-box /deep/ .dialog-table {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  white-space: pre-wrap;
+}
+.govPage5 .dialog-table-box /deep/ .dialog-table td,
+.govPage5 .dialog-table-box /deep/ .dialog-table th {
+  padding: 2px;
+  border-color: #576d95;
+}
+.govPage5 .dialog-table-box /deep/ .dialog-table .el-table__header th,
+.govPage5 .dialog-table-box /deep/ .dialog-table .el-table__header tr {
+  background: #f88957;
+  color: #fff;
+}
+.govPage5 .dialog-table-box /deep/ .dialog-table .el-table__row--striped td,
+.govPage5 .dialog-table-box /deep/ .dialog-table .el-table__row--striped th {
+  background: #fff9e6 !important;
+}
+.govPage5 .dialog-table-box /deep/ .dialog-table .el-table__row td,
+.govPage5 .dialog-table-box /deep/ .dialog-table .el-table__row th {
+  background: #fff6d1;
+}
+.govPage5 .dialog-table-box /deep/ .dialog-table .cell {
+  padding-left: 0;
+  padding-right: 0;
+}
+.govPage5 .dialog-table-box /deep/ .dialog-table .el-table__header-wrapper {
+  flex: none;
+}
+.govPage5 .dialog-table-box /deep/ .dialog-table .el-table__body-wrapper {
+  display: flex;
+}
+.govPage5 .dialog-table-box /deep/ .dialog-table .el-table__body-wrapper .el-table__body {
+  flex: 1;
+}
+.govPage5 .quanbuClick {
+  position: absolute;
+  top: -4%;
+  right: 2%;
+  width: 7%;
+  height: 4%;
+  border-radius: 16%;
+  font-size: 1vw;
+  cursor: pointer;
+}
+.govPage5 .quanbuClick:hover {
+  background: #f88957;
+}
+@media screen and (max-width: 1370px) {
+  .govPage5 .title_img {
+    height: 18px;
+  }
+  .govPage5 .title_img1 {
+    height: 18px;
+  }
+  .govPage5 .page_title2 {
+    height: 52%;
+  }
+  .govPage5 .page_title2 {
+    height: 50%;
+  }
+  .govPage5 .page_title3 {
+    height: 67%;
+  }
+  .govPage5 .date_abs {
+    left: 60%;
+    top: 2.2%;
+  }
+}
