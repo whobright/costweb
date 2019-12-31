@@ -406,6 +406,7 @@ export default {
     float: left;
     height: 80%;
     width: 45%;
+   
     .scatter {
       width: 100%;
       height: 100%;

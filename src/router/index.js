@@ -44,6 +44,13 @@ const Operate=()=>import('@/views/compar/Operate.vue');
 const analyse=()=>import('@/views/analyse/analyse');
 
 
+const guimo = () => import('@/views/guimo/guimo');
+const quanhangdk = () => import('@/views/guimo/quanhangdk');
+const yewutx = () => import('@/views/guimo/yewutx');
+const zuzhijg = () => import('@/views/guimo/zuzhijg');
+
+
+
 
 Vue.use(Router);
 
@@ -61,13 +68,30 @@ const router = new Router({
       path: '*',
       name: 'page404',
       component: page404
-    }, {
+    }, 
+
+    {
       path: '/',
-      name: 'login',
-      component: login,
-      meta: {
-        title: '登录'
-      }
+      name: 'guimo',
+      component: guimo,
+     redirect:'/guimo/quanhangdk',
+      children:[
+        {
+          path: '/guimo/quanhangdk',
+          name: 'quanhangdk',
+          component: quanhangdk,
+        },
+        {
+          path: '/guimo/yewutx',
+          name: 'yewutx',
+          component: yewutx,
+        },
+        {
+          path: '/guimo/zuzhijg',
+          name: 'zuzhijg',
+          component: zuzhijg,
+        },
+      ]
     },
     {
       path: '/error',
